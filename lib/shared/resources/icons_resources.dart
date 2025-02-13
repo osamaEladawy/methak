@@ -9,4 +9,24 @@ class IconsResources {
   static const apple = "$_Icons_Path/apple.svg";
   static const face = "$_Icons_Path/face.svg";
   static const x = "$_Icons_Path/x.svg";
+  static const object = "$_Icons_Path/Object.svg";
+  static const hogzat = "$_Icons_Path/hogzat.svg";
+  static const search = "$_Icons_Path/search-normal.svg";
+  static const profileIcon = "$_Icons_Path/profile_icon.svg";
+  //* home category
+  static const serviceLaw = "$_Icons_Path/2non.svg";
+  static const calculator = "$_Icons_Path/calculator.svg";
+  static const doctors = "$_Icons_Path/doctors.svg";
+  static const fitness = "$_Icons_Path/fitness.svg";
+  static const healthService = "$_Icons_Path/healthy_service.svg";
+  static const lifeStyle = "$_Icons_Path/life_style.svg";
+  static const maintality = "$_Icons_Path/maintality.svg";
+  static const newLearn = "$_Icons_Path/new_learn.svg";
+  static const asrh = "$_Icons_Path/asrh.svg";
+  static const arrowDown = "$_Icons_Path/arrow_down.svg";
+  static const map = "$_Icons_Path/map.svg";
+  static const arrowRight = "$_Icons_Path/arrow-right.svg";
+  static const video = "$_Icons_Path/video.svg";
+  static const video2 = "$_Icons_Path/video2.svg";
+  static const messages = "$_Icons_Path/messages.svg";
 }

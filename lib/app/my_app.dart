@@ -6,7 +6,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:methak/app_injections.dart';
 import 'package:methak/core/routes/routes_generator.dart';
 import 'package:methak/features/auth/cubit/auth_cubit.dart';
+import 'package:methak/features/home/cubit/home_cubit.dart';
+import 'package:methak/features/home_tap/cubit/home_tap_cubit.dart';
+import 'package:methak/features/home_tap/screen/home_tap_screen.dart';
 import 'package:methak/features/onboard/cubit/onboard_cubit.dart';
+import 'package:methak/features/reservation/cubit/reservation_cubit.dart';
+import 'package:methak/features/search/cubit/search_cubit.dart';
 import 'package:methak/features/services/cubit/services_cubit.dart';
 import 'package:methak/features/splash/cubit/theme_cubit.dart';
 import 'package:methak/features/splash/screen/splash_screen.dart';
@@ -41,10 +46,10 @@ class MainApp extends StatelessWidget {
                   create: (context) => getIt<OnboardCubit>()),
               BlocProvider<AuthCubit>(create: (context) => getIt<AuthCubit>()),
               BlocProvider<ServicesCubit>(create: (context) => getIt<ServicesCubit>()),
-              // BlocProvider<HomeCubit>(create: (context) => getIt<HomeCubit>()),
-              // BlocProvider<OptionsCubit>(create: (context) => getIt<OptionsCubit>()),
-              // BlocProvider<LocationCubit>(create: (context) => getIt<LocationCubit>()),
-              // BlocProvider<CafesCubit>(create: (context) => getIt<CafesCubit>()),
+              BlocProvider<HomeCubit>(create: (context) => getIt<HomeCubit>()),
+              BlocProvider<HomeTapCubit>(create: (context) => getIt<HomeTapCubit>()),
+              BlocProvider<SearchCubit>(create: (context) => getIt<SearchCubit>()),
+              BlocProvider<ReservationCubit>(create: (context) => getIt<ReservationCubit>()),
               // BlocProvider<RecentlyAddedCubit>(create: (context) => getIt<RecentlyAddedCubit>()),
               // BlocProvider<MostPopularCubit>(create: (context) => getIt<MostPopularCubit>()),
               // BlocProvider<SportsActivityCubit>(create: (context) => getIt<SportsActivityCubit>()),
@@ -68,7 +73,7 @@ class MainApp extends StatelessWidget {
           ),
         );
       },
-      child: SplashScreen(),
+      child: HomeTapScreen(),
     );
   }
 }

@@ -22,14 +22,39 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "aNotificationWillBeSent": MessageLookupByLibrary.simpleMessage(
+      "سوف يتم ارسال اشعار ليك قبل الموعد بساعدة للتذكير مع كافة التفاصيل الخاصه بالحجز",
+    ),
+    "accountingConsulting": MessageLookupByLibrary.simpleMessage(
+      "استشارات محسابية",
+    ),
+    "addressOnTheMap": MessageLookupByLibrary.simpleMessage(
+      "العنوان علي الخريطة",
+    ),
+    "allServices": MessageLookupByLibrary.simpleMessage("كل الخدمات"),
     "and": MessageLookupByLibrary.simpleMessage("و"),
     "arbitrationAndDisputeResolution": MessageLookupByLibrary.simpleMessage(
       "التحكيم وحل النزاعات",
     ),
     "authenticationCode": MessageLookupByLibrary.simpleMessage("رمز المصادقة"),
+    "bookAgain": MessageLookupByLibrary.simpleMessage("حجز مرة اخري"),
+    "bookTheService": MessageLookupByLibrary.simpleMessage("حجز الخدمة"),
+    "browse": MessageLookupByLibrary.simpleMessage("تصفح"),
+    "byConfirmingTheRequest": MessageLookupByLibrary.simpleMessage(
+      "بتاكيد الطلب سوف يتم الغاء الحجز الخاص بك و خصم قيم الغاء الحجز المتفق عليها في الشروط والاحكام و سياسة الاستخدام",
+    ),
     "byCreatingAnAccount": MessageLookupByLibrary.simpleMessage(
       "عند إنشاء حساب، فإنك توافق على",
     ),
+    "cancelModification": MessageLookupByLibrary.simpleMessage("الغاء التعديل"),
+    "cancelOrder": MessageLookupByLibrary.simpleMessage("الغاء الطلب"),
+    "cancellationOfReservation": MessageLookupByLibrary.simpleMessage(
+      "الغاء الحجز",
+    ),
+    "careerGuidance": MessageLookupByLibrary.simpleMessage("ارشاد مهني"),
+    "chat": MessageLookupByLibrary.simpleMessage("دردشة"),
+    "coming": MessageLookupByLibrary.simpleMessage("قادمة"),
+    "confirmOrder": MessageLookupByLibrary.simpleMessage("تاكيد الطلب"),
     "consultations": MessageLookupByLibrary.simpleMessage("استشارات"),
     "consultingApplication": MessageLookupByLibrary.simpleMessage(
       "تطبيق استشارات",
@@ -41,13 +66,22 @@ class MessageLookup extends MessageLookupByLibrary {
     "didntReceiveTheCode": MessageLookupByLibrary.simpleMessage(
       "لم يصل اليك الكود؟",
     ),
+    "diet": MessageLookupByLibrary.simpleMessage("النظام الغذائي"),
+    "doYouWantToCancelYourReservation": MessageLookupByLibrary.simpleMessage(
+      "هل تريد الغاء الحجز الخاص بك؟",
+    ),
     "electronicLegal": MessageLookupByLibrary.simpleMessage(
       "قانونية الكترونية",
+    ),
+    "everyone": MessageLookupByLibrary.simpleMessage("الكل"),
+    "familyConsultations": MessageLookupByLibrary.simpleMessage(
+      "استشارات اسرية",
     ),
     "familyLaw": MessageLookupByLibrary.simpleMessage("قانونية آسرية"),
     "financialLegality": MessageLookupByLibrary.simpleMessage(
       "قانونية المالية",
     ),
+    "fitness": MessageLookupByLibrary.simpleMessage("اللياقة البدنية"),
     "followUpOnRegistration": MessageLookupByLibrary.simpleMessage(
       "متابعة التسجيل",
     ),
@@ -55,9 +89,17 @@ class MessageLookup extends MessageLookupByLibrary {
       "للاعمال والشركات",
     ),
     "generalLegal": MessageLookupByLibrary.simpleMessage("قانونية العامة"),
+    "generalLegalAdvice": MessageLookupByLibrary.simpleMessage(
+      "استشارات قانونية عامة",
+    ),
+    "good": MessageLookupByLibrary.simpleMessage("حسناً"),
+    "healthCare": MessageLookupByLibrary.simpleMessage("رعاية صحية"),
+    "hello": MessageLookupByLibrary.simpleMessage("اهلا "),
     "invitationCode": MessageLookupByLibrary.simpleMessage(
       "كود الدعوة “اختياري”",
     ),
+    "itHasBeenCancelled": MessageLookupByLibrary.simpleMessage("تم الغائها"),
+    "itsOver": MessageLookupByLibrary.simpleMessage("انتهت"),
     "legalConsultations": MessageLookupByLibrary.simpleMessage(
       "استشارات قانونية",
     ),
@@ -71,16 +113,35 @@ class MessageLookup extends MessageLookupByLibrary {
     "loginViaSocialNetworks": MessageLookupByLibrary.simpleMessage(
       "تسجيل دخول من خلال شبكات التواصل",
     ),
+    "medicalConsultations": MessageLookupByLibrary.simpleMessage(
+      "استشارات طبية",
+    ),
+    "mentalHealth": MessageLookupByLibrary.simpleMessage("الصحة العقلية"),
+    "modifyReservation": MessageLookupByLibrary.simpleMessage("تعديل الحجز"),
+    "myBookings": MessageLookupByLibrary.simpleMessage("حجوزاتي"),
     "nameHere": MessageLookupByLibrary.simpleMessage("الاسم هنا"),
     "next": MessageLookupByLibrary.simpleMessage("التالي"),
+    "office": MessageLookupByLibrary.simpleMessage("مكتب"),
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "our": MessageLookupByLibrary.simpleMessage("الخاصة بنا"),
+    "ourServices": MessageLookupByLibrary.simpleMessage("خدماتنا"),
     "privacyPolicy": MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
+    "profile": MessageLookupByLibrary.simpleMessage("حسابي"),
+    "research": MessageLookupByLibrary.simpleMessage("بحث"),
     "resendCode": MessageLookupByLibrary.simpleMessage("إعادة الأرسال"),
+    "saveEdit": MessageLookupByLibrary.simpleMessage("حفظ التعديل"),
+    "serviceRequest": MessageLookupByLibrary.simpleMessage("طلب الخدمة"),
     "theAuthenticationCode": MessageLookupByLibrary.simpleMessage(
       "تم ارسال رمز المصادقة علي رقم الهاتف المسجل",
     ),
+    "theOrderHasBeenSuccessfullyConfirmed":
+        MessageLookupByLibrary.simpleMessage("لقد تم تاكيد الطلب بنجاح بنجاح"),
+    "video": MessageLookupByLibrary.simpleMessage("فيديو"),
+    "viewDetails": MessageLookupByLibrary.simpleMessage("مشاهدة التفاصيل"),
     "welcome": MessageLookupByLibrary.simpleMessage("مرحباً بك 👋"),
+    "welcomeToTheElectronic": MessageLookupByLibrary.simpleMessage(
+      "اهلاً بك في تطبيق استشارات الكترونبية",
+    ),
     "within": MessageLookupByLibrary.simpleMessage("خلال"),
   };
 }

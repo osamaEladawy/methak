@@ -324,6 +324,321 @@ class S {
   String get our {
     return Intl.message('our', name: 'our', desc: '', args: []);
   }
+
+  /// `browse`
+  String get browse {
+    return Intl.message('browse', name: 'browse', desc: '', args: []);
+  }
+
+  /// `My bookings`
+  String get myBookings {
+    return Intl.message('My bookings', name: 'myBookings', desc: '', args: []);
+  }
+
+  /// `research`
+  String get research {
+    return Intl.message('research', name: 'research', desc: '', args: []);
+  }
+
+  /// `profile`
+  String get profile {
+    return Intl.message('profile', name: 'profile', desc: '', args: []);
+  }
+
+  /// `Hello`
+  String get hello {
+    return Intl.message('Hello', name: 'hello', desc: '', args: []);
+  }
+
+  /// `Welcome to the electronic consultation application`
+  String get welcomeToTheElectronic {
+    return Intl.message(
+      'Welcome to the electronic consultation application',
+      name: 'welcomeToTheElectronic',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Our Services`
+  String get ourServices {
+    return Intl.message(
+      'Our Services',
+      name: 'ourServices',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All services`
+  String get allServices {
+    return Intl.message(
+      'All services',
+      name: 'allServices',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Family consultations`
+  String get familyConsultations {
+    return Intl.message(
+      'Family consultations',
+      name: 'familyConsultations',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Medical consultations`
+  String get medicalConsultations {
+    return Intl.message(
+      'Medical consultations',
+      name: 'medicalConsultations',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Accounting Consulting`
+  String get accountingConsulting {
+    return Intl.message(
+      'Accounting Consulting',
+      name: 'accountingConsulting',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Health care`
+  String get healthCare {
+    return Intl.message('Health care', name: 'healthCare', desc: '', args: []);
+  }
+
+  /// `Career guidance`
+  String get careerGuidance {
+    return Intl.message(
+      'Career guidance',
+      name: 'careerGuidance',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Diet`
+  String get diet {
+    return Intl.message('Diet', name: 'diet', desc: '', args: []);
+  }
+
+  /// `Fitness`
+  String get fitness {
+    return Intl.message('Fitness', name: 'fitness', desc: '', args: []);
+  }
+
+  /// `Mental health`
+  String get mentalHealth {
+    return Intl.message(
+      'Mental health',
+      name: 'mentalHealth',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Coming`
+  String get coming {
+    return Intl.message('Coming', name: 'coming', desc: '', args: []);
+  }
+
+  /// `General legal advice`
+  String get generalLegalAdvice {
+    return Intl.message(
+      'General legal advice',
+      name: 'generalLegalAdvice',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `video`
+  String get video {
+    return Intl.message('video', name: 'video', desc: '', args: []);
+  }
+
+  /// `cancellation of reservation`
+  String get cancellationOfReservation {
+    return Intl.message(
+      'cancellation of reservation',
+      name: 'cancellationOfReservation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Modify reservation`
+  String get modifyReservation {
+    return Intl.message(
+      'Modify reservation',
+      name: 'modifyReservation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `It's over.`
+  String get itsOver {
+    return Intl.message('It\'s over.', name: 'itsOver', desc: '', args: []);
+  }
+
+  /// `office`
+  String get office {
+    return Intl.message('office', name: 'office', desc: '', args: []);
+  }
+
+  /// `Address on the map`
+  String get addressOnTheMap {
+    return Intl.message(
+      'Address on the map',
+      name: 'addressOnTheMap',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `View details`
+  String get viewDetails {
+    return Intl.message(
+      'View details',
+      name: 'viewDetails',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Book Again`
+  String get bookAgain {
+    return Intl.message('Book Again', name: 'bookAgain', desc: '', args: []);
+  }
+
+  /// `Chat`
+  String get chat {
+    return Intl.message('Chat', name: 'chat', desc: '', args: []);
+  }
+
+  /// `It has been cancelled.`
+  String get itHasBeenCancelled {
+    return Intl.message(
+      'It has been cancelled.',
+      name: 'itHasBeenCancelled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel order`
+  String get cancelOrder {
+    return Intl.message(
+      'Cancel order',
+      name: 'cancelOrder',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `everyone`
+  String get everyone {
+    return Intl.message('everyone', name: 'everyone', desc: '', args: []);
+  }
+
+  /// `Do you want to cancel your reservation?`
+  String get doYouWantToCancelYourReservation {
+    return Intl.message(
+      'Do you want to cancel your reservation?',
+      name: 'doYouWantToCancelYourReservation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By confirming the request, your reservation will be cancelled and the cancellation fees agreed upon in the terms and conditions and usage policy will be deducted.`
+  String get byConfirmingTheRequest {
+    return Intl.message(
+      'By confirming the request, your reservation will be cancelled and the cancellation fees agreed upon in the terms and conditions and usage policy will be deducted.',
+      name: 'byConfirmingTheRequest',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Save edit`
+  String get saveEdit {
+    return Intl.message('Save edit', name: 'saveEdit', desc: '', args: []);
+  }
+
+  /// `Cancel modification`
+  String get cancelModification {
+    return Intl.message(
+      'Cancel modification',
+      name: 'cancelModification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Book the service`
+  String get bookTheService {
+    return Intl.message(
+      'Book the service',
+      name: 'bookTheService',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm order`
+  String get confirmOrder {
+    return Intl.message(
+      'Confirm order',
+      name: 'confirmOrder',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Service request`
+  String get serviceRequest {
+    return Intl.message(
+      'Service request',
+      name: 'serviceRequest',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The order has been successfully confirmed`
+  String get theOrderHasBeenSuccessfullyConfirmed {
+    return Intl.message(
+      'The order has been successfully confirmed',
+      name: 'theOrderHasBeenSuccessfullyConfirmed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `A notification will be sent to you before the appointment to help you remember, with all the details related to the reservation.`
+  String get aNotificationWillBeSent {
+    return Intl.message(
+      'A notification will be sent to you before the appointment to help you remember, with all the details related to the reservation.',
+      name: 'aNotificationWillBeSent',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Good`
+  String get good {
+    return Intl.message('Good', name: 'good', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -129,7 +129,7 @@ class OtpScreen extends StatelessWidget {
             child: PrimaryButton(
               title: tr.followUpOnRegistration,
               onPressed: () {
-                context.pushReplacementNamed(Routes.servicesScreen);
+                context.pushReplacementNamed(Routes.homeTap);
               },
             ),
           ),
