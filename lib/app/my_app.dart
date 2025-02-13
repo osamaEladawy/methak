@@ -17,7 +17,6 @@ import 'package:methak/features/splash/cubit/theme_cubit.dart';
 import 'package:methak/features/splash/screen/splash_screen.dart';
 import 'package:methak/generated/l10n.dart';
 
-
 //! when you want using localization in this app
 //* please install the flutter intl (extention) from plugins in android studio or visual studio
 
@@ -45,11 +44,15 @@ class MainApp extends StatelessWidget {
               BlocProvider<OnboardCubit>(
                   create: (context) => getIt<OnboardCubit>()),
               BlocProvider<AuthCubit>(create: (context) => getIt<AuthCubit>()),
-              BlocProvider<ServicesCubit>(create: (context) => getIt<ServicesCubit>()),
+              BlocProvider<ServicesCubit>(
+                  create: (context) => getIt<ServicesCubit>()),
               BlocProvider<HomeCubit>(create: (context) => getIt<HomeCubit>()),
-              BlocProvider<HomeTapCubit>(create: (context) => getIt<HomeTapCubit>()),
-              BlocProvider<SearchCubit>(create: (context) => getIt<SearchCubit>()),
-              BlocProvider<ReservationCubit>(create: (context) => getIt<ReservationCubit>()),
+              BlocProvider<HomeTapCubit>(
+                  create: (context) => getIt<HomeTapCubit>()),
+              BlocProvider<SearchCubit>(
+                  create: (context) => getIt<SearchCubit>()),
+              BlocProvider<ReservationCubit>(
+                  create: (context) => getIt<ReservationCubit>()),
               // BlocProvider<RecentlyAddedCubit>(create: (context) => getIt<RecentlyAddedCubit>()),
               // BlocProvider<MostPopularCubit>(create: (context) => getIt<MostPopularCubit>()),
               // BlocProvider<SportsActivityCubit>(create: (context) => getIt<SportsActivityCubit>()),
@@ -73,7 +76,7 @@ class MainApp extends StatelessWidget {
           ),
         );
       },
-      child: HomeTapScreen(),
+      child: SplashScreen(),
     );
   }
 }

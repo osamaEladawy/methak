@@ -21,6 +21,8 @@ class ServiceRequestScreen extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: BottomSheet(
+         enableDrag: false,
+            showDragHandle: false,
           backgroundColor: Colors.white,
           elevation: 10,
           shadowColor: ColorResources.blackColor.withOpacity(0.05),

@@ -26,6 +26,8 @@ class BookTheServiceScreen extends StatelessWidget {
       ),
       bottomNavigationBar: BottomSheet(
           backgroundColor: Colors.white,
+           enableDrag: false,
+            showDragHandle: false,
           elevation: 10,
           shadowColor: ColorResources.blackColor.withOpacity(0.05),
           shape: RoundedRectangleBorder(

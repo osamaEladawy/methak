@@ -14,6 +14,8 @@ class HomeTapScreen extends StatelessWidget {
       builder: (context, state) {
         return Scaffold(
           bottomNavigationBar: BottomSheet(
+            enableDrag: false,
+            showDragHandle: false,
             backgroundColor: Colors.white,
             elevation: 10,
             shadowColor: ColorResources.blackColor.withOpacity(0.05),
@@ -24,10 +26,9 @@ class HomeTapScreen extends StatelessWidget {
               ),
             ),
             onClosing: () {},
-            builder:(context)=> Container(
+            builder: (context) => Container(
               height: 84.h,
-              padding:
-              EdgeInsets.symmetric(horizontal: 15.w, vertical: 10.h),
+              padding: EdgeInsets.symmetric(horizontal: 15.w, vertical: 10.h),
               decoration: BoxDecoration(
                 color: ColorResources.whiteColor,
                 borderRadius: BorderRadius.only(
