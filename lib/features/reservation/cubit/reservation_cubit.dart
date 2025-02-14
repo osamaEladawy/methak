@@ -18,7 +18,7 @@ class ReservationCubit extends Cubit<ReservationState> {
   int currentIndex = 0;
   int currentSelectedTypeIndex = 0;
   int indexOfModifyOrCancelOrder = 0;
-
+  int selectTimeMorning = 0;
   bool isValue = false;
 
   void selectPaymentMethod(bool value){
@@ -30,6 +30,11 @@ class ReservationCubit extends Cubit<ReservationState> {
   void changeIndex(int index) {
     currentIndex = index;
     emit(ChangeIndex());
+    emit(ChangeColor());
+  }
+  void selectMorningTime(int index) {
+    selectTimeMorning = index;
+    emit(SelectTimesMorning());
     emit(ChangeColor());
   }
 
@@ -48,6 +53,10 @@ class ReservationCubit extends Cubit<ReservationState> {
   List<String> words = [
     tr.modifyReservation,
     tr.cancellationOfReservation,
+  ];
+  List<String> timesMorning = [
+    "9:00 ص",
+    "10:00 ص",
   ];
   List<String> titlesButtons = [
     tr.saveEdit,

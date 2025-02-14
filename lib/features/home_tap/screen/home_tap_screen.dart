@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:methak/core/functions/check_for_current_language.dart';
 import 'package:methak/features/home_tap/cubit/home_tap_cubit.dart';
 import 'package:methak/features/home_tap/widgets/custom_appBar.dart';
 import 'package:methak/shared/resources/color_resources.dart';
@@ -28,7 +29,9 @@ class HomeTapScreen extends StatelessWidget {
             onClosing: () {},
             builder: (context) => Container(
               height: 84.h,
-              padding: EdgeInsets.symmetric(horizontal: 15.w, vertical: 10.h),
+              padding: isArabic
+                  ? EdgeInsets.symmetric(horizontal: 15.w, vertical: 10.h)
+                  : EdgeInsets.symmetric(horizontal: 5.w, vertical: 10.h),
               decoration: BoxDecoration(
                 color: ColorResources.whiteColor,
                 borderRadius: BorderRadius.only(
@@ -37,10 +40,11 @@ class HomeTapScreen extends StatelessWidget {
                 ),
                 boxShadow: [
                   BoxShadow(
-                      color: ColorResources.blackColor.withOpacity(0.05),
-                      spreadRadius: 2,
-                      blurRadius: 20,
-                      offset: Offset(0, -5)),
+                    color: ColorResources.blackColor.withOpacity(0.05),
+                    spreadRadius: 2,
+                    blurRadius: 20,
+                    offset: Offset(0, -5),
+                  ),
                 ],
               ),
               child: Row(
@@ -48,7 +52,7 @@ class HomeTapScreen extends StatelessWidget {
                   ...List.generate(HomeTapCubit.instance.bottomsBarPages.length,
                       (index) {
                     return CustomButtonAppBar(
-                      active: HomeTapCubit.instance.currentIndex==index,
+                      active: HomeTapCubit.instance.currentIndex == index,
                       colorText: HomeTapCubit.instance.currentIndex == index
                           ? ColorResources.primaryColor
                           : Color(0xff484C52),

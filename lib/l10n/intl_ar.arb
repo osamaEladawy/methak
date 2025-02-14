@@ -26,8 +26,7 @@
     "arbitrationAndDisputeResolution":"التحكيم وحل النزاعات",
     "legalConsultations":"استشارات قانونية",
     "byCreatingAnAccount":"عند إنشاء حساب، فإنك توافق على",
-    "userAgreement ":"اتفاقية المستخدم",
-    "userAgree ":"اتفاقية المستخدم",
+    "userAgreement":"اتفاقية المستخدم",
     "privacyPolicy":"سياسة الخصوصية",
     "and":"و",
     "our":"الخاصة بنا",
@@ -94,5 +93,9 @@
     "aboutMe":"نبذة عني",
     "whatDidTheySayAboutMe":"ماذا قالوا عني",
     "bookAnAppointment":"حجز موعد",
-    "religiousConsultation":" استشارة دينية"
+    "religiousConsultation":" استشارة دينية",
+    "setTime":"تحديد الوقت",
+    "morningPeriod":"فتره صباحية",
+    "eveningPeriod":"فتره مسائية",
+    "expandingNotes":"افاضة ملاحظات"
 }

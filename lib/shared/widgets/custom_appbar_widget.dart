@@ -28,6 +28,7 @@ class CustomAppBarWidget extends StatelessWidget {
       title: widget == null
           ? Text(
               title,
+              textAlign: TextAlign.center,
               style: AppTextStyle.textStyle(
                 appFontSize: 16.sp,
                 appFontHeight: 24.sp,

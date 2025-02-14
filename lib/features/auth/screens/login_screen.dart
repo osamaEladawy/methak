@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:methak/core/functions/check_for_current_language.dart';
 import 'package:methak/core/functions/translate.dart';
 import 'package:methak/features/auth/cubit/auth_cubit.dart';
 import 'package:methak/features/auth/screens/otp_screen.dart';
@@ -52,7 +53,7 @@ class LoginScreen extends StatelessWidget {
                           ),
                         ),
                         TextSpan(
-                          text: " ${tr.userAgree} ",
+                          text: " ${tr.userAgreement} ",
                           style: AppTextStyle.textStyle(
                             appFontSize: 14.sp,
                             appFontHeight: 21.sp,
@@ -78,6 +79,7 @@ class LoginScreen extends StatelessWidget {
                             color: Color(0xff31C5C7),
                           ),
                         ),
+                        if(isArabic)
                         TextSpan(
                           text: "${tr.our} ",
                           style: AppTextStyle.textStyle(

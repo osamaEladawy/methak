@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:methak/core/functions/check_for_current_language.dart';
 import 'package:methak/core/functions/translate.dart';
 import 'package:methak/shared/classes/text_style.dart';
+import 'package:methak/shared/extentions/navigations.dart';
 import 'package:methak/shared/resources/color_resources.dart';
 import 'package:methak/shared/widgets/primary_button.dart';
 
@@ -18,9 +20,12 @@ class CustomBottomModelSheet extends StatelessWidget {
     return Container(
       height: isConfirmRequest ? 364.h : 422.h,
       width: 390.w,
-      padding: EdgeInsets.symmetric(
+      padding:isArabic? EdgeInsets.symmetric(
         horizontal: 20.w,
-        vertical: 20.h,
+         vertical: 20.h,
+      ):EdgeInsets.symmetric(
+        horizontal: 20.w,
+         vertical: 5.h,
       ),
       child: Column(
         children: [
@@ -65,7 +70,9 @@ class CustomBottomModelSheet extends StatelessWidget {
           SizedBox(height: 16.h),
           PrimaryButton(
             title: isConfirmRequest ? tr.good : tr.cancelOrder,
-            onPressed: () {},
+            onPressed: () {
+              context.pop();
+            },
           )
         ],
       ),

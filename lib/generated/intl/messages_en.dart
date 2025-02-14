@@ -90,7 +90,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "editAccount": MessageLookupByLibrary.simpleMessage("Edit account"),
     "electronicLegal": MessageLookupByLibrary.simpleMessage("Electronic legal"),
     "email": MessageLookupByLibrary.simpleMessage("e-mail"),
+    "eveningPeriod": MessageLookupByLibrary.simpleMessage("Evening period"),
     "everyone": MessageLookupByLibrary.simpleMessage("everyone"),
+    "expandingNotes": MessageLookupByLibrary.simpleMessage("Expanding notes"),
     "familyConsultations": MessageLookupByLibrary.simpleMessage(
       "Family consultations",
     ),
@@ -142,6 +144,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "modifyReservation": MessageLookupByLibrary.simpleMessage(
       "Modify reservation",
     ),
+    "morningPeriod": MessageLookupByLibrary.simpleMessage("Morning period"),
     "myBookings": MessageLookupByLibrary.simpleMessage("My bookings"),
     "nameHere": MessageLookupByLibrary.simpleMessage("Name here"),
     "next": MessageLookupByLibrary.simpleMessage("Next"),
@@ -163,6 +166,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "saveEdit": MessageLookupByLibrary.simpleMessage("Save edit"),
     "search": MessageLookupByLibrary.simpleMessage("Search"),
     "serviceRequest": MessageLookupByLibrary.simpleMessage("Service request"),
+    "setTime": MessageLookupByLibrary.simpleMessage("Set time"),
     "sortBy": MessageLookupByLibrary.simpleMessage("sort by"),
     "subtotal": MessageLookupByLibrary.simpleMessage("Subtotal"),
     "theAuthenticationCode": MessageLookupByLibrary.simpleMessage(
@@ -176,7 +180,6 @@ class MessageLookup extends MessageLookupByLibrary {
       "The restaurant offers three payment methods to suit you.",
     ),
     "totalAmount": MessageLookupByLibrary.simpleMessage("Total Amount"),
-    "userAgree": MessageLookupByLibrary.simpleMessage("User Agreement"),
     "userAgreement": MessageLookupByLibrary.simpleMessage("User Agreement"),
     "video": MessageLookupByLibrary.simpleMessage("video"),
     "viewDetails": MessageLookupByLibrary.simpleMessage("View details"),

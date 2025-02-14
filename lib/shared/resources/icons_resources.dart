@@ -47,4 +47,6 @@ class IconsResources {
   static const arrowUpDown = "$_Icons_Path/arrow_up_down.svg";
   static const review = "$_Icons_Path/review.svg";
   static const notification = "$_Icons_Path/notification.svg";
+  static const arrowR = "$_Icons_Path/arrow_r.svg";
+  static const arrowLeft = "$_Icons_Path/arrow_left.svg";
 }

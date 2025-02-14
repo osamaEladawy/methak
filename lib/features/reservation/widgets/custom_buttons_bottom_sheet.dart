@@ -8,7 +8,8 @@ class CustomButtonsBottomSheet extends StatelessWidget {
     super.key,
     this.onTap,
     this.colorContainer,
-    this.colorText, required this.title,
+    this.colorText,
+    required this.title,
   });
 
   final void Function()? onTap;
@@ -26,13 +27,14 @@ class CustomButtonsBottomSheet extends StatelessWidget {
         height: 40.h,
         padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 5.h),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10.r),
-          color:colorContainer,
-          border: Border.all(width: 1.w,color: colorText!)
-          //ColorResources.primaryColor,
-        ),
+            borderRadius: BorderRadius.circular(10.r),
+            color: colorContainer,
+            border: Border.all(width: 1.w, color: colorText!)
+            //ColorResources.primaryColor,
+            ),
         child: Text(
-         title,
+          title,
+          textAlign: TextAlign.center,
           style: AppTextStyle.textStyle(
             appFontSize: 16.sp,
             appFontHeight: 24.sp,

@@ -8,7 +8,6 @@ import 'package:methak/core/routes/routes_generator.dart';
 import 'package:methak/features/auth/cubit/auth_cubit.dart';
 import 'package:methak/features/home/cubit/home_cubit.dart';
 import 'package:methak/features/home_tap/cubit/home_tap_cubit.dart';
-import 'package:methak/features/home_tap/screen/home_tap_screen.dart';
 import 'package:methak/features/onboard/cubit/onboard_cubit.dart';
 import 'package:methak/features/profile/cubit/profile_cubit.dart';
 import 'package:methak/features/reservation/cubit/reservation_cubit.dart';
@@ -56,9 +55,6 @@ class MainApp extends StatelessWidget {
                   create: (context) => getIt<ReservationCubit>()),
               BlocProvider<ProfileCubit>(
                   create: (context) => getIt<ProfileCubit>()),
-              // BlocProvider<MostPopularCubit>(create: (context) => getIt<MostPopularCubit>()),
-              // BlocProvider<SportsActivityCubit>(create: (context) => getIt<SportsActivityCubit>()),
-              // BlocProvider<WorldLeaguesCubit>(create: (context) => getIt<WorldLeaguesCubit>()),
             ],
             child: MaterialApp(
               navigatorKey: navigatorKey,
@@ -72,13 +68,12 @@ class MainApp extends StatelessWidget {
               ],
               supportedLocales: S.delegate.supportedLocales,
               locale: Locale("ar"),
-              //theme: dark,
               home: child,
             ),
           ),
         );
       },
-      child: HomeTapScreen(),
+      child: SplashScreen(),
     );
   }
 }

@@ -295,16 +295,6 @@ class S {
     );
   }
 
-  /// `User Agreement`
-  String get userAgree {
-    return Intl.message(
-      'User Agreement',
-      name: 'userAgree',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Privacy Policy`
   String get privacyPolicy {
     return Intl.message(
@@ -810,6 +800,41 @@ class S {
     return Intl.message(
       'Religious consultation',
       name: 'religiousConsultation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Set time`
+  String get setTime {
+    return Intl.message('Set time', name: 'setTime', desc: '', args: []);
+  }
+
+  /// `Morning period`
+  String get morningPeriod {
+    return Intl.message(
+      'Morning period',
+      name: 'morningPeriod',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Evening period`
+  String get eveningPeriod {
+    return Intl.message(
+      'Evening period',
+      name: 'eveningPeriod',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Expanding notes`
+  String get expandingNotes {
+    return Intl.message(
+      'Expanding notes',
+      name: 'expandingNotes',
       desc: '',
       args: [],
     );

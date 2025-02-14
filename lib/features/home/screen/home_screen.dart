@@ -19,9 +19,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: ColorResources.primaryColor,
         toolbarHeight: 84.h,
-        // ارتفاع مخصص لتوفير مساحة كافية
         automaticallyImplyLeading: false,
-        // إلغاء الزر الافتراضي
         title: Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.w),
           child: Column(
@@ -58,79 +56,79 @@ class HomeScreen extends StatelessWidget {
               color: ColorResources.whiteColor,
             ),
           ),
-        ], bottom: PreferredSize(
-      preferredSize: Size.fromHeight(100.h),
-      child: BlocBuilder<HomeCubit, HomeState>(
-        builder: (context, state) {
-          return Stack(
-            clipBehavior: Clip.none,
-            alignment: Alignment.bottomCenter,
-            children: [
-              Container(
-                height: 100.h,
-                color: ColorResources.primaryColor,
-              ),
-              Positioned(
-                bottom: -100.h,
-                child: SizedBox(
-                  height: 170.h,
-                  width: 370.w,
-                  child: PageView.builder(
-                    controller: HomeCubit.instance.controller,
-                    itemCount: HomeCubit.instance.banners.length,
-                    onPageChanged: (page) {
-                      HomeCubit.instance.changeIndex(page);
-                    },
-                    itemBuilder: (context, index) {
-                      return ClipRRect(
-                        borderRadius: BorderRadius.circular(12.r),
-                        child: Container(
-                          margin: EdgeInsets.symmetric(horizontal: 8.w),
-                          padding: EdgeInsets.only(bottom: 10.h),
-                          alignment: Alignment.bottomCenter,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(12.r),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.black.withOpacity(0.1),
-                                blurRadius: 6,
-                                spreadRadius: 2,
-                                offset: Offset(0, 3),
-                              ),
-
-                            ],
-                            image: DecorationImage(image: AssetImage(HomeCubit.instance.banners[index]))
-                          ),
-                          child: SmoothPageIndicator(
-                            controller: HomeCubit.instance.controller,
-                            count: HomeCubit.instance.banners.length,
-                            effect: ExpandingDotsEffect(
-                              dotHeight: 8.h,
-                              dotWidth: 11.w,
-                              expansionFactor: 2.5,
-                              activeDotColor: ColorResources.whiteColor,
-                              dotColor: Color(0xffD9D9D9),
-                            ),
-                            onDotClicked: (index) {
-                              HomeCubit.instance.controller.animateToPage(
-                                index,
-                                duration: Duration(milliseconds: 300),
-                                curve: Curves.easeInOut,
-                              );
-                            },
-                          ),
-                        ),
-                      );
-                    },
+        ],
+        bottom: PreferredSize(
+          preferredSize: Size.fromHeight(100.h),
+          child: BlocBuilder<HomeCubit, HomeState>(
+            builder: (context, state) {
+              return Stack(
+                clipBehavior: Clip.none,
+                alignment: Alignment.bottomCenter,
+                children: [
+                  Container(
+                    height: 100.h,
+                    color: ColorResources.primaryColor,
                   ),
-                ),
-              ),
-            ],
-          );
-        },
-      ),
-    ),
-
+                  Positioned(
+                    bottom: -100.h,
+                    child: SizedBox(
+                      height: 170.h,
+                      width: 370.w,
+                      child: PageView.builder(
+                        controller: HomeCubit.instance.controller,
+                        itemCount: HomeCubit.instance.banners.length,
+                        onPageChanged: (page) {
+                          HomeCubit.instance.changeIndex(page);
+                        },
+                        itemBuilder: (context, index) {
+                          return ClipRRect(
+                            borderRadius: BorderRadius.circular(12.r),
+                            child: Container(
+                              margin: EdgeInsets.symmetric(horizontal: 8.w),
+                              padding: EdgeInsets.only(bottom: 10.h),
+                              alignment: Alignment.bottomCenter,
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(12.r),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black.withOpacity(0.1),
+                                      blurRadius: 6,
+                                      spreadRadius: 2,
+                                      offset: Offset(0, 3),
+                                    ),
+                                  ],
+                                  image: DecorationImage(
+                                      image: AssetImage(
+                                          HomeCubit.instance.banners[index]))),
+                              child: SmoothPageIndicator(
+                                controller: HomeCubit.instance.controller,
+                                count: HomeCubit.instance.banners.length,
+                                effect: ExpandingDotsEffect(
+                                  dotHeight: 8.h,
+                                  dotWidth: 11.w,
+                                  expansionFactor: 2.5,
+                                  activeDotColor: ColorResources.whiteColor,
+                                  dotColor: Color(0xffD9D9D9),
+                                ),
+                                onDotClicked: (index) {
+                                  HomeCubit.instance.controller.animateToPage(
+                                    index,
+                                    duration: Duration(milliseconds: 300),
+                                    curve: Curves.easeInOut,
+                                  );
+                                },
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                  ),
+                ],
+              );
+            },
+          ),
+        ),
       ),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 20.w),
@@ -217,6 +215,7 @@ class HomeScreen extends StatelessWidget {
                                 ),
                                 child: Text(
                                   HomeCubit.instance.categories[index].title!,
+                                  overflow: TextOverflow.ellipsis,
                                   style: AppTextStyle.textStyle(
                                     appFontSize: 12.sp,
                                     appFontHeight: 18.sp,

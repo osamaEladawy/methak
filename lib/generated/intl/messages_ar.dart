@@ -82,7 +82,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "قانونية الكترونية",
     ),
     "email": MessageLookupByLibrary.simpleMessage("البريد الألكتروني"),
+    "eveningPeriod": MessageLookupByLibrary.simpleMessage("فتره مسائية"),
     "everyone": MessageLookupByLibrary.simpleMessage("الكل"),
+    "expandingNotes": MessageLookupByLibrary.simpleMessage("افاضة ملاحظات"),
     "familyConsultations": MessageLookupByLibrary.simpleMessage(
       "استشارات اسرية",
     ),
@@ -130,6 +132,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "mentalHealth": MessageLookupByLibrary.simpleMessage("الصحة العقلية"),
     "modifyReservation": MessageLookupByLibrary.simpleMessage("تعديل الحجز"),
+    "morningPeriod": MessageLookupByLibrary.simpleMessage("فتره صباحية"),
     "myBookings": MessageLookupByLibrary.simpleMessage("حجوزاتي"),
     "nameHere": MessageLookupByLibrary.simpleMessage("الاسم هنا"),
     "next": MessageLookupByLibrary.simpleMessage("التالي"),
@@ -151,6 +154,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "saveEdit": MessageLookupByLibrary.simpleMessage("حفظ التعديل"),
     "search": MessageLookupByLibrary.simpleMessage("بحث"),
     "serviceRequest": MessageLookupByLibrary.simpleMessage("طلب الخدمة"),
+    "setTime": MessageLookupByLibrary.simpleMessage("تحديد الوقت"),
     "sortBy": MessageLookupByLibrary.simpleMessage("ترتيب حسب"),
     "subtotal": MessageLookupByLibrary.simpleMessage("المجموع الفرعي"),
     "theAuthenticationCode": MessageLookupByLibrary.simpleMessage(
@@ -162,6 +166,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "يوفر المطعم ثلاث طرق للدفع مما يناسبك",
     ),
     "totalAmount": MessageLookupByLibrary.simpleMessage("المبلغ الإجمالي"),
+    "userAgreement": MessageLookupByLibrary.simpleMessage("اتفاقية المستخدم"),
     "video": MessageLookupByLibrary.simpleMessage("فيديو"),
     "viewDetails": MessageLookupByLibrary.simpleMessage("مشاهدة التفاصيل"),
     "welcome": MessageLookupByLibrary.simpleMessage("مرحباً بك 👋"),

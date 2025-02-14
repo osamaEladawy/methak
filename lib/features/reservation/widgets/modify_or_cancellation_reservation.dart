@@ -36,6 +36,7 @@ class ModifyOrCancellationReservation extends StatelessWidget {
         ),
         child: Text(
           title,
+          textAlign: TextAlign.center,
           style: AppTextStyle.textStyle(
               appFontSize: 14.sp,
               appFontHeight: 21.sp,

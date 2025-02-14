@@ -27,7 +27,6 @@
     "legalConsultations":"Legal consultations",
     "byCreatingAnAccount":"By creating an account, you agree to our",
     "userAgreement":"User Agreement",
-    "userAgree":"User Agreement",
     "privacyPolicy":"Privacy Policy",
     "and":"and",
     "our":"our",
@@ -93,7 +92,12 @@
     "aboutMe":"About me",
     "whatDidTheySayAboutMe":"What did they say about me",
     "bookAnAppointment":"Book an appointment",
-    "religiousConsultation":"Religious consultation"
+    "religiousConsultation":"Religious consultation",
+    "setTime":"Set time",
+    "morningPeriod":"Morning period",
+    "eveningPeriod":"Evening period",
+    "expandingNotes":"Expanding notes"
+
 
 
 }

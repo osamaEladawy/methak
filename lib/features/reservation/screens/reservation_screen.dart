@@ -122,7 +122,7 @@ class ReservationScreen extends StatelessWidget {
                 titleDotGreen: tr.office,
                 widget: Container(
                   height: 25,
-                  width: 153.w,
+                  //width: 153.w,
                   alignment: Alignment.center,
                   padding: EdgeInsets.symmetric(horizontal: 5.w, vertical: 2.h),
                   decoration: BoxDecoration(
