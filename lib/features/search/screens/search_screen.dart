@@ -47,7 +47,7 @@ class SearchScreen extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: 20.h),
-            CustomTextFieldSearch(),
+            CustomTextFieldSearch(icon: IconsResources.search,hintText: tr.search,),
             SizedBox(height: 10.h),
             Expanded(
               child: ListView.separated(

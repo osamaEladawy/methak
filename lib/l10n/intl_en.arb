@@ -78,7 +78,21 @@
     "logOut":"Log out",
     "phoneNumber":"phone number",
     "email":"e-mail",
-    "save":"Save"
+    "save":"Save",
+    "subtotal": "Subtotal",
+    "delivery": "delivery",
+    "totalAmount": "Total Amount",
+    "paymentSummary": "Payment Summary",
+    "paymentThrough": "Payment through",
+    "theRestaurantOffers": "The restaurant offers three payment methods to suit you.",
+    "creditCard": "credit card",
+    "inCash": "in cash",
+    "search": "Search",
+    "sortBy": "sort by",
+    "details":"details",
+    "aboutMe":"About me",
+    "whatDidTheySayAboutMe":"What did they say about me",
+    "bookAnAppointment":"Book an appointment"
 
 
 }

@@ -12,3 +12,4 @@ final class ChangeIndex extends ReservationState {}
 final class ChangeColor extends ReservationState {}
 final class ModifyOrCancelOrder extends ReservationState {}
 final class ModifyOrCancelOrderColor extends ReservationState {}
+final class SelectPaymentMethods extends ReservationState {}

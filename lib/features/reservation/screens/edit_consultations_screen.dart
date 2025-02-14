@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:methak/core/functions/translate.dart';
 import 'package:methak/core/routes/routes.dart';
 import 'package:methak/features/reservation/cubit/reservation_cubit.dart';
 import 'package:methak/features/reservation/widgets/select_type_consultation.dart';
-import 'package:methak/shared/classes/text_style.dart';
 import 'package:methak/shared/extentions/navigations.dart';
 import 'package:methak/shared/resources/color_resources.dart';
 import 'package:methak/shared/widgets/custom_appbar_widget.dart';

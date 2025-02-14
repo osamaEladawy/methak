@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:methak/core/functions/translate.dart';
 import 'package:methak/core/routes/routes.dart';
 import 'package:methak/features/profile/widgets/custom_rows.dart';

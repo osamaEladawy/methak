@@ -79,6 +79,19 @@
     "logOut":"تسجيل خروج",
     "phoneNumber":"رقم الهاتف",
     "email":"البريد الألكتروني",
-    "save":"حفظ"
-    
+    "save":"حفظ",
+    "subtotal": "المجموع الفرعي",
+    "delivery": "توصيل",
+    "totalAmount": "المبلغ الإجمالي",
+    "paymentSummary": "ملخص الدفع",
+    "paymentThrough": "الدفع من خلال",
+    "theRestaurantOffers": "يوفر المطعم ثلاث طرق للدفع مما يناسبك",
+    "creditCard": "بطاقة ائتمان",
+    "inCash": "نقداً",
+    "search": "بحث",
+    "sortBy": "ترتيب حسب",
+    "details":"تفاصيل",
+    "aboutMe":"نبذة عني",
+    "whatDidTheySayAboutMe":"ماذا قالوا عني",
+    "bookAnAppointment":"حجز موعد"
 }

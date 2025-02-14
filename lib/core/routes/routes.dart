@@ -13,4 +13,5 @@ class Routes {
   static const bookTheServiceScreen = "bookTheServiceScreen";
   static const serviceRequest = "serviceRequest";
   static const editProfileScreen = "editProfileScreen";
+  static const detailsLawyerServiceScreen = "detailsLawyerServiceScreen";
 }

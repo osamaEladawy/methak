@@ -704,6 +704,106 @@ class S {
   String get save {
     return Intl.message('Save', name: 'save', desc: '', args: []);
   }
+
+  /// `Subtotal`
+  String get subtotal {
+    return Intl.message('Subtotal', name: 'subtotal', desc: '', args: []);
+  }
+
+  /// `delivery`
+  String get delivery {
+    return Intl.message('delivery', name: 'delivery', desc: '', args: []);
+  }
+
+  /// `Total Amount`
+  String get totalAmount {
+    return Intl.message(
+      'Total Amount',
+      name: 'totalAmount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Payment Summary`
+  String get paymentSummary {
+    return Intl.message(
+      'Payment Summary',
+      name: 'paymentSummary',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Payment through`
+  String get paymentThrough {
+    return Intl.message(
+      'Payment through',
+      name: 'paymentThrough',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The restaurant offers three payment methods to suit you.`
+  String get theRestaurantOffers {
+    return Intl.message(
+      'The restaurant offers three payment methods to suit you.',
+      name: 'theRestaurantOffers',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `credit card`
+  String get creditCard {
+    return Intl.message('credit card', name: 'creditCard', desc: '', args: []);
+  }
+
+  /// `in cash`
+  String get inCash {
+    return Intl.message('in cash', name: 'inCash', desc: '', args: []);
+  }
+
+  /// `Search`
+  String get search {
+    return Intl.message('Search', name: 'search', desc: '', args: []);
+  }
+
+  /// `sort by`
+  String get sortBy {
+    return Intl.message('sort by', name: 'sortBy', desc: '', args: []);
+  }
+
+  /// `details`
+  String get details {
+    return Intl.message('details', name: 'details', desc: '', args: []);
+  }
+
+  /// `About me`
+  String get aboutMe {
+    return Intl.message('About me', name: 'aboutMe', desc: '', args: []);
+  }
+
+  /// `What did they say about me`
+  String get whatDidTheySayAboutMe {
+    return Intl.message(
+      'What did they say about me',
+      name: 'whatDidTheySayAboutMe',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Book an appointment`
+  String get bookAnAppointment {
+    return Intl.message(
+      'Book an appointment',
+      name: 'bookAnAppointment',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -25,6 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aNotificationWillBeSent": MessageLookupByLibrary.simpleMessage(
       "سوف يتم ارسال اشعار ليك قبل الموعد بساعدة للتذكير مع كافة التفاصيل الخاصه بالحجز",
     ),
+    "aboutMe": MessageLookupByLibrary.simpleMessage("نبذة عني"),
     "aboutTheApplication": MessageLookupByLibrary.simpleMessage("عن التطبيق"),
     "accountingConsulting": MessageLookupByLibrary.simpleMessage(
       "استشارات محسابية",
@@ -40,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "authenticationCode": MessageLookupByLibrary.simpleMessage("رمز المصادقة"),
     "bookAgain": MessageLookupByLibrary.simpleMessage("حجز مرة اخري"),
+    "bookAnAppointment": MessageLookupByLibrary.simpleMessage("حجز موعد"),
     "bookTheService": MessageLookupByLibrary.simpleMessage("حجز الخدمة"),
     "browse": MessageLookupByLibrary.simpleMessage("تصفح"),
     "byConfirmingTheRequest": MessageLookupByLibrary.simpleMessage(
@@ -61,10 +63,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "consultingApplication": MessageLookupByLibrary.simpleMessage(
       "تطبيق استشارات",
     ),
+    "creditCard": MessageLookupByLibrary.simpleMessage("بطاقة ائتمان"),
     "criminalLaw": MessageLookupByLibrary.simpleMessage("قانونية جنائية"),
+    "delivery": MessageLookupByLibrary.simpleMessage("توصيل"),
     "descriptionOnboard": MessageLookupByLibrary.simpleMessage(
       "هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.",
     ),
+    "details": MessageLookupByLibrary.simpleMessage("تفاصيل"),
     "didntReceiveTheCode": MessageLookupByLibrary.simpleMessage(
       "لم يصل اليك الكود؟",
     ),
@@ -100,6 +105,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "healthCare": MessageLookupByLibrary.simpleMessage("رعاية صحية"),
     "hello": MessageLookupByLibrary.simpleMessage("اهلا "),
     "helpAndSupport": MessageLookupByLibrary.simpleMessage("المساعدة والدعم"),
+    "inCash": MessageLookupByLibrary.simpleMessage("نقداً"),
     "invitationCode": MessageLookupByLibrary.simpleMessage(
       "كود الدعوة “اختياري”",
     ),
@@ -131,6 +137,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "our": MessageLookupByLibrary.simpleMessage("الخاصة بنا"),
     "ourServices": MessageLookupByLibrary.simpleMessage("خدماتنا"),
+    "paymentSummary": MessageLookupByLibrary.simpleMessage("ملخص الدفع"),
+    "paymentThrough": MessageLookupByLibrary.simpleMessage("الدفع من خلال"),
     "phoneNumber": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
     "privacyPolicy": MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
     "profile": MessageLookupByLibrary.simpleMessage("حسابي"),
@@ -138,17 +146,27 @@ class MessageLookup extends MessageLookupByLibrary {
     "resendCode": MessageLookupByLibrary.simpleMessage("إعادة الأرسال"),
     "save": MessageLookupByLibrary.simpleMessage("حفظ"),
     "saveEdit": MessageLookupByLibrary.simpleMessage("حفظ التعديل"),
+    "search": MessageLookupByLibrary.simpleMessage("بحث"),
     "serviceRequest": MessageLookupByLibrary.simpleMessage("طلب الخدمة"),
+    "sortBy": MessageLookupByLibrary.simpleMessage("ترتيب حسب"),
+    "subtotal": MessageLookupByLibrary.simpleMessage("المجموع الفرعي"),
     "theAuthenticationCode": MessageLookupByLibrary.simpleMessage(
       "تم ارسال رمز المصادقة علي رقم الهاتف المسجل",
     ),
     "theOrderHasBeenSuccessfullyConfirmed":
         MessageLookupByLibrary.simpleMessage("لقد تم تاكيد الطلب بنجاح بنجاح"),
+    "theRestaurantOffers": MessageLookupByLibrary.simpleMessage(
+      "يوفر المطعم ثلاث طرق للدفع مما يناسبك",
+    ),
+    "totalAmount": MessageLookupByLibrary.simpleMessage("المبلغ الإجمالي"),
     "video": MessageLookupByLibrary.simpleMessage("فيديو"),
     "viewDetails": MessageLookupByLibrary.simpleMessage("مشاهدة التفاصيل"),
     "welcome": MessageLookupByLibrary.simpleMessage("مرحباً بك 👋"),
     "welcomeToTheElectronic": MessageLookupByLibrary.simpleMessage(
       "اهلاً بك في تطبيق استشارات الكترونبية",
+    ),
+    "whatDidTheySayAboutMe": MessageLookupByLibrary.simpleMessage(
+      "ماذا قالوا عني",
     ),
     "within": MessageLookupByLibrary.simpleMessage("خلال"),
   };

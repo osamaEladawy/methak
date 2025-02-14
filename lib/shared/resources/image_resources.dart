@@ -13,4 +13,7 @@ class ImagesResources {
   static const familyLaw = "$_Image_Path/family_law.png";
   static const mentality = "$_Image_Path/mantilaty.png";
   static const learnMore = "$_Image_Path/learn_more.png";
+  static const lawyer = "$_Image_Path/lawyer.png";
+  static const infoLawyer = "$_Image_Path/info_lawyer.png";
+  static const review = "$_Image_Path/review.png";
 }

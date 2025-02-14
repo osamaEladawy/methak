@@ -25,6 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aNotificationWillBeSent": MessageLookupByLibrary.simpleMessage(
       "A notification will be sent to you before the appointment to help you remember, with all the details related to the reservation.",
     ),
+    "aboutMe": MessageLookupByLibrary.simpleMessage("About me"),
     "aboutTheApplication": MessageLookupByLibrary.simpleMessage(
       "About the application",
     ),
@@ -46,6 +47,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Authentication code",
     ),
     "bookAgain": MessageLookupByLibrary.simpleMessage("Book Again"),
+    "bookAnAppointment": MessageLookupByLibrary.simpleMessage(
+      "Book an appointment",
+    ),
     "bookTheService": MessageLookupByLibrary.simpleMessage("Book the service"),
     "browse": MessageLookupByLibrary.simpleMessage("browse"),
     "byConfirmingTheRequest": MessageLookupByLibrary.simpleMessage(
@@ -69,10 +73,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "consultingApplication": MessageLookupByLibrary.simpleMessage(
       "Consulting application",
     ),
+    "creditCard": MessageLookupByLibrary.simpleMessage("credit card"),
     "criminalLaw": MessageLookupByLibrary.simpleMessage("criminal law"),
+    "delivery": MessageLookupByLibrary.simpleMessage("delivery"),
     "descriptionOnboard": MessageLookupByLibrary.simpleMessage(
       "It is a long-established fact that a reader will be distracted by the readable content of a page when focusing on the layout of the text or the layout of the paragraphs on the page he is reading.",
     ),
+    "details": MessageLookupByLibrary.simpleMessage("details"),
     "didntReceiveTheCode": MessageLookupByLibrary.simpleMessage(
       "Didn\'t receive the code?",
     ),
@@ -106,6 +113,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "healthCare": MessageLookupByLibrary.simpleMessage("Health care"),
     "hello": MessageLookupByLibrary.simpleMessage("Hello"),
     "helpAndSupport": MessageLookupByLibrary.simpleMessage("Help and Support"),
+    "inCash": MessageLookupByLibrary.simpleMessage("in cash"),
     "invitationCode": MessageLookupByLibrary.simpleMessage(
       "Invitation code (optional)",
     ),
@@ -141,6 +149,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "or": MessageLookupByLibrary.simpleMessage("Or"),
     "our": MessageLookupByLibrary.simpleMessage("our"),
     "ourServices": MessageLookupByLibrary.simpleMessage("Our Services"),
+    "paymentSummary": MessageLookupByLibrary.simpleMessage("Payment Summary"),
+    "paymentThrough": MessageLookupByLibrary.simpleMessage("Payment through"),
     "phoneNumber": MessageLookupByLibrary.simpleMessage("phone number"),
     "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
     "profile": MessageLookupByLibrary.simpleMessage("profile"),
@@ -148,7 +158,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "resendCode": MessageLookupByLibrary.simpleMessage("resend code"),
     "save": MessageLookupByLibrary.simpleMessage("Save"),
     "saveEdit": MessageLookupByLibrary.simpleMessage("Save edit"),
+    "search": MessageLookupByLibrary.simpleMessage("Search"),
     "serviceRequest": MessageLookupByLibrary.simpleMessage("Service request"),
+    "sortBy": MessageLookupByLibrary.simpleMessage("sort by"),
+    "subtotal": MessageLookupByLibrary.simpleMessage("Subtotal"),
     "theAuthenticationCode": MessageLookupByLibrary.simpleMessage(
       "The authentication code has been sent to the registered phone number.",
     ),
@@ -156,6 +169,10 @@ class MessageLookup extends MessageLookupByLibrary {
         MessageLookupByLibrary.simpleMessage(
           "The order has been successfully confirmed",
         ),
+    "theRestaurantOffers": MessageLookupByLibrary.simpleMessage(
+      "The restaurant offers three payment methods to suit you.",
+    ),
+    "totalAmount": MessageLookupByLibrary.simpleMessage("Total Amount"),
     "userAgree": MessageLookupByLibrary.simpleMessage("User Agreement"),
     "userAgreement": MessageLookupByLibrary.simpleMessage("User Agreement"),
     "video": MessageLookupByLibrary.simpleMessage("video"),
@@ -163,6 +180,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "welcome": MessageLookupByLibrary.simpleMessage("Welcome"),
     "welcomeToTheElectronic": MessageLookupByLibrary.simpleMessage(
       "Welcome to the electronic consultation application",
+    ),
+    "whatDidTheySayAboutMe": MessageLookupByLibrary.simpleMessage(
+      "What did they say about me",
     ),
     "within": MessageLookupByLibrary.simpleMessage("within"),
   };

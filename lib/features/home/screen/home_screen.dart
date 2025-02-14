@@ -6,7 +6,6 @@ import 'package:methak/features/home/cubit/home_cubit.dart';
 import 'package:methak/shared/classes/text_style.dart';
 import 'package:methak/shared/extentions/navigations.dart';
 import 'package:methak/shared/resources/color_resources.dart';
-import 'package:methak/shared/resources/image_resources.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../../core/routes/routes.dart';

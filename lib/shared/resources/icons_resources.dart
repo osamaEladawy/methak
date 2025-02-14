@@ -42,4 +42,9 @@ class IconsResources {
   static const arrowRights = "$_Icons_Path/Arrow-Right-2.svg";
   static const editLine = "$_Icons_Path/edit-line.svg";
   static const gmail = "$_Icons_Path/sms.svg";
+  static const coins = "$_Icons_Path/coins.svg";
+  static const cards = "$_Icons_Path/cards.svg";
+  static const arrowUpDown = "$_Icons_Path/arrow_up_down.svg";
+  static const review = "$_Icons_Path/review.svg";
+  static const notification = "$_Icons_Path/notification.svg";
 }

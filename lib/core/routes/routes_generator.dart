@@ -9,6 +9,7 @@ import 'package:methak/features/onboard/screens/onboard_screen.dart';
 import 'package:methak/features/profile/screens/edit_profile_screen.dart';
 import 'package:methak/features/reservation/screens/edit_consultations_screen.dart';
 import 'package:methak/features/search/screens/search_screen.dart';
+import 'package:methak/features/services/screens/details_lawyer_service_screen.dart';
 import 'package:methak/features/services/screens/display_service_screen.dart';
 import 'package:methak/features/services/screens/services_screen.dart';
 import 'package:methak/features/splash/screen/splash_screen.dart';
@@ -47,6 +48,8 @@ class RoutesGenerator {
         return _buildRoute(const ServiceRequestScreen(), isIos);
       case Routes.editProfileScreen:
         return _buildRoute(const EditProfileScreen(), isIos);
+      case Routes.detailsLawyerServiceScreen:
+        return _buildRoute(const DetailsLawyerServiceScreen(), isIos);
       default:
         return _buildRoute(const UndefinedWidget(), isIos);
     }

@@ -19,6 +19,14 @@ class ReservationCubit extends Cubit<ReservationState> {
   int currentSelectedTypeIndex = 0;
   int indexOfModifyOrCancelOrder = 0;
 
+  bool isValue = false;
+
+  void selectPaymentMethod(bool value){
+    isValue = value;
+    emit(SelectPaymentMethods());
+    emit(ChangeColor());
+  }
+
   void changeIndex(int index) {
     currentIndex = index;
     emit(ChangeIndex());

@@ -109,6 +109,16 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/
+    - assets/fonts/
+    - assets/fonts/noto/
+    - assets/fonts/quicksand/
+    - assets/fonts/alexandria/
+    - assets/fonts/madani_arabic/
+    - assets/images/2/
+    - assets/images/3/
+    - assets/images/4/
+    - assets/images/1.5/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -140,10 +150,10 @@ flutter:
         - asset: assets/fonts/quicksand/Quicksand-SemiBold.ttf
     - family: Alexandria
       fonts:
-        - asset: Alexandria-Bold.ttf
-        - asset: Alexandria-Medium.ttf
-        - asset: Alexandria-Regular.ttf
-        - asset: Alexandria-SemiBold.ttf
+        - asset: assets/fonts/alexandria/Alexandria-Bold.ttf
+        - asset: assets/fonts/alexandria/Alexandria-Medium.ttf
+        - asset: assets/fonts/alexandria/Alexandria-Regular.ttf
+        - asset: assets/fonts/alexandria/Alexandria-SemiBold.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
