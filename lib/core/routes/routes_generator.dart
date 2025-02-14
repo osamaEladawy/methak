@@ -6,6 +6,7 @@ import 'package:methak/features/auth/screens/login_screen.dart';
 import 'package:methak/features/home/screen/home_screen.dart';
 import 'package:methak/features/home_tap/screen/home_tap_screen.dart';
 import 'package:methak/features/onboard/screens/onboard_screen.dart';
+import 'package:methak/features/profile/screens/edit_profile_screen.dart';
 import 'package:methak/features/reservation/screens/edit_consultations_screen.dart';
 import 'package:methak/features/search/screens/search_screen.dart';
 import 'package:methak/features/services/screens/display_service_screen.dart';
@@ -44,6 +45,8 @@ class RoutesGenerator {
         return _buildRoute(const BookTheServiceScreen(), isIos);
       case Routes.serviceRequest:
         return _buildRoute(const ServiceRequestScreen(), isIos);
+      case Routes.editProfileScreen:
+        return _buildRoute(const EditProfileScreen(), isIos);
       default:
         return _buildRoute(const UndefinedWidget(), isIos);
     }

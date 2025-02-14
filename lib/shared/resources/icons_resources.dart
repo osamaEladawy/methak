@@ -34,4 +34,12 @@ class IconsResources {
   static const profileActive = "$_Icons_Path/profile_active.svg";
   static const taskActive = "$_Icons_Path/task_active.svg";
   static const searchActive = "$_Icons_Path/search_active.svg";
+  static const profileCircle = "$_Icons_Path/profile-circle.svg";
+  static const mobile = "$_Icons_Path/mobile.svg";
+  static const logout = "$_Icons_Path/logout.svg";
+  static const legal = "$_Icons_Path/Legal.svg";
+  static const help = "$_Icons_Path/Help.svg";
+  static const arrowRights = "$_Icons_Path/Arrow-Right-2.svg";
+  static const editLine = "$_Icons_Path/edit-line.svg";
+  static const gmail = "$_Icons_Path/sms.svg";
 }

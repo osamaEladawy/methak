@@ -78,7 +78,7 @@ class MainApp extends StatelessWidget {
           ),
         );
       },
-      child: SplashScreen(),
+      child: HomeTapScreen(),
     );
   }
 }

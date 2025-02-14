@@ -2,6 +2,7 @@ class AppStrings {
   static const madani = "Madani";
   static const noto = "Noto";
   static const quicksand = "Quicksand";
+  static const alexandria = "Alexandria";
   static const String english = "English";
   static const String arabic = "Arabic";
 

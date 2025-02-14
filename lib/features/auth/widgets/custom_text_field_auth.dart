@@ -18,6 +18,7 @@ class CustomTextFieldAuth extends StatelessWidget {
     this.labelText,
     this.onChanged,
     this.isChangeFont = false,
+    this.isEditProfile = false,
   });
   final String? hintText;
   final String? labelText;
@@ -30,6 +31,7 @@ class CustomTextFieldAuth extends StatelessWidget {
   final String image;
   final void Function(String)? onChanged;
   final bool isChangeFont;
+  final bool isEditProfile;
 
   @override
   Widget build(BuildContext context) {
@@ -59,13 +61,21 @@ class CustomTextFieldAuth extends StatelessWidget {
             ),
           ),
           hintText: hintText,
-          hintStyle: AppTextStyle.textStyle(
-            isQuicksand: isChangeFont,
-            appFontSize: 16.sp,
-            appFontHeight: 24.sp,
-            appFontWeight: FontWeight.w400,
-            color: Color(0xffC1C9D3),
-          ),
+          hintStyle: isEditProfile
+              ? AppTextStyle.textStyle(
+                  isAlexandria: true,
+                  appFontSize: 12.sp,
+                  appFontHeight: 18.sp,
+                  appFontWeight: FontWeight.w400,
+                  color: ColorResources.blackColor,
+                )
+              : AppTextStyle.textStyle(
+                  isQuicksand: isChangeFont,
+                  appFontSize: 16.sp,
+                  appFontHeight: 24.sp,
+                  appFontWeight: FontWeight.w400,
+                  color: Color(0xffC1C9D3),
+                ),
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12.r),
             borderSide: BorderSide(

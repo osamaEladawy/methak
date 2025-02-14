@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:methak/core/functions/translate.dart';
+import 'package:methak/core/routes/routes.dart';
+import 'package:methak/features/profile/widgets/custom_rows.dart';
+import 'package:methak/features/reservation/widgets/custom_driver.dart';
 import 'package:methak/shared/classes/text_style.dart';
+import 'package:methak/shared/extentions/navigations.dart';
 import 'package:methak/shared/resources/color_resources.dart';
+import 'package:methak/shared/resources/icons_resources.dart';
 import 'package:methak/shared/widgets/custom_appbar_widget.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -44,7 +50,7 @@ class ProfileScreen extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              height: 240.h,
+              // height: 240.h,
               width: 350.w,
               padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 10.h),
               decoration: BoxDecoration(
@@ -60,9 +66,42 @@ class ProfileScreen extends StatelessWidget {
               ),
               child: Column(
                 children: [
-                  Row(
-                    children: [],
-                  )
+                  CustomRows(
+                    onTap: () {
+                      context.pushNamed(Routes.editProfileScreen);
+                    },
+                    title: tr.editAccount,
+                    icon: IconsResources.profileCircle,
+                  ),
+                  SizedBox(height: 10.h),
+                  CustomDriver(),
+                  SizedBox(height: 10.h),
+                  CustomRows(
+                    title: tr.aboutTheApplication,
+                    icon: IconsResources.mobile,
+                  ),
+                  SizedBox(height: 10.h),
+                  CustomDriver(),
+                  SizedBox(height: 10.h),
+                  CustomRows(
+                    title: tr.helpAndSupport,
+                    icon: IconsResources.help,
+                  ),
+                  SizedBox(height: 10.h),
+                  CustomDriver(),
+                  SizedBox(height: 10.h),
+                  CustomRows(
+                    title: tr.applicationPolicy,
+                    icon: IconsResources.legal,
+                  ),
+                  SizedBox(height: 10.h),
+                  CustomDriver(),
+                  SizedBox(height: 10.h),
+                  CustomRows(
+                    title: tr.logOut,
+                    icon: IconsResources.logout,
+                  ),
+                  SizedBox(height: 10.h),
                 ],
               ),
             ),

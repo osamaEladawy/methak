@@ -71,5 +71,14 @@
     "serviceRequest": "طلب الخدمة",
     "theOrderHasBeenSuccessfullyConfirmed": "لقد تم تاكيد الطلب بنجاح بنجاح",
     "aNotificationWillBeSent": "سوف يتم ارسال اشعار ليك قبل الموعد بساعدة للتذكير مع كافة التفاصيل الخاصه بالحجز",
-    "good": "حسناً"
+    "good": "حسناً",
+    "editAccount":"تعديل الحساب",
+    "aboutTheApplication":"عن التطبيق",
+    "helpAndSupport":"المساعدة والدعم",
+    "applicationPolicy":"سياسة التطبيق",
+    "logOut":"تسجيل خروج",
+    "phoneNumber":"رقم الهاتف",
+    "email":"البريد الألكتروني",
+    "save":"حفظ"
+    
 }

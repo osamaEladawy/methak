@@ -25,6 +25,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "aNotificationWillBeSent": MessageLookupByLibrary.simpleMessage(
       "A notification will be sent to you before the appointment to help you remember, with all the details related to the reservation.",
     ),
+    "aboutTheApplication": MessageLookupByLibrary.simpleMessage(
+      "About the application",
+    ),
     "accountingConsulting": MessageLookupByLibrary.simpleMessage(
       "Accounting Consulting",
     ),
@@ -33,6 +36,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "allServices": MessageLookupByLibrary.simpleMessage("All services"),
     "and": MessageLookupByLibrary.simpleMessage("and"),
+    "applicationPolicy": MessageLookupByLibrary.simpleMessage(
+      "Application Policy",
+    ),
     "arbitrationAndDisputeResolution": MessageLookupByLibrary.simpleMessage(
       "Arbitration and Dispute Resolution",
     ),
@@ -74,7 +80,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "doYouWantToCancelYourReservation": MessageLookupByLibrary.simpleMessage(
       "Do you want to cancel your reservation?",
     ),
+    "editAccount": MessageLookupByLibrary.simpleMessage("Edit account"),
     "electronicLegal": MessageLookupByLibrary.simpleMessage("Electronic legal"),
+    "email": MessageLookupByLibrary.simpleMessage("e-mail"),
     "everyone": MessageLookupByLibrary.simpleMessage("everyone"),
     "familyConsultations": MessageLookupByLibrary.simpleMessage(
       "Family consultations",
@@ -97,6 +105,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "good": MessageLookupByLibrary.simpleMessage("Good"),
     "healthCare": MessageLookupByLibrary.simpleMessage("Health care"),
     "hello": MessageLookupByLibrary.simpleMessage("Hello"),
+    "helpAndSupport": MessageLookupByLibrary.simpleMessage("Help and Support"),
     "invitationCode": MessageLookupByLibrary.simpleMessage(
       "Invitation code (optional)",
     ),
@@ -113,6 +122,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "legalForWorkAndEmployment": MessageLookupByLibrary.simpleMessage(
       "Legal for work and employment",
     ),
+    "logOut": MessageLookupByLibrary.simpleMessage("Log out"),
     "login": MessageLookupByLibrary.simpleMessage("Login"),
     "loginViaSocialNetworks": MessageLookupByLibrary.simpleMessage(
       "Login via social networks",
@@ -131,10 +141,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "or": MessageLookupByLibrary.simpleMessage("Or"),
     "our": MessageLookupByLibrary.simpleMessage("our"),
     "ourServices": MessageLookupByLibrary.simpleMessage("Our Services"),
+    "phoneNumber": MessageLookupByLibrary.simpleMessage("phone number"),
     "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
     "profile": MessageLookupByLibrary.simpleMessage("profile"),
     "research": MessageLookupByLibrary.simpleMessage("research"),
     "resendCode": MessageLookupByLibrary.simpleMessage("resend code"),
+    "save": MessageLookupByLibrary.simpleMessage("Save"),
     "saveEdit": MessageLookupByLibrary.simpleMessage("Save edit"),
     "serviceRequest": MessageLookupByLibrary.simpleMessage("Service request"),
     "theAuthenticationCode": MessageLookupByLibrary.simpleMessage(

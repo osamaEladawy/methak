@@ -639,6 +639,71 @@ class S {
   String get good {
     return Intl.message('Good', name: 'good', desc: '', args: []);
   }
+
+  /// `Edit account`
+  String get editAccount {
+    return Intl.message(
+      'Edit account',
+      name: 'editAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `About the application`
+  String get aboutTheApplication {
+    return Intl.message(
+      'About the application',
+      name: 'aboutTheApplication',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Help and Support`
+  String get helpAndSupport {
+    return Intl.message(
+      'Help and Support',
+      name: 'helpAndSupport',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Application Policy`
+  String get applicationPolicy {
+    return Intl.message(
+      'Application Policy',
+      name: 'applicationPolicy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Log out`
+  String get logOut {
+    return Intl.message('Log out', name: 'logOut', desc: '', args: []);
+  }
+
+  /// `phone number`
+  String get phoneNumber {
+    return Intl.message(
+      'phone number',
+      name: 'phoneNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `e-mail`
+  String get email {
+    return Intl.message('e-mail', name: 'email', desc: '', args: []);
+  }
+
+  /// `Save`
+  String get save {
+    return Intl.message('Save', name: 'save', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

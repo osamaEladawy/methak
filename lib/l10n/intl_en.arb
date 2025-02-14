@@ -70,7 +70,15 @@
     "serviceRequest": "Service request",
     "theOrderHasBeenSuccessfullyConfirmed": "The order has been successfully confirmed",
     "aNotificationWillBeSent": "A notification will be sent to you before the appointment to help you remember, with all the details related to the reservation.",
-    "good": "Good"
+    "good": "Good",
+    "editAccount":"Edit account",
+    "aboutTheApplication":"About the application",
+    "helpAndSupport":"Help and Support",
+    "applicationPolicy":"Application Policy",
+    "logOut":"Log out",
+    "phoneNumber":"phone number",
+    "email":"e-mail",
+    "save":"Save"
 
 
 }

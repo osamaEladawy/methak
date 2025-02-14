@@ -25,6 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "aNotificationWillBeSent": MessageLookupByLibrary.simpleMessage(
       "سوف يتم ارسال اشعار ليك قبل الموعد بساعدة للتذكير مع كافة التفاصيل الخاصه بالحجز",
     ),
+    "aboutTheApplication": MessageLookupByLibrary.simpleMessage("عن التطبيق"),
     "accountingConsulting": MessageLookupByLibrary.simpleMessage(
       "استشارات محسابية",
     ),
@@ -33,6 +34,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "allServices": MessageLookupByLibrary.simpleMessage("كل الخدمات"),
     "and": MessageLookupByLibrary.simpleMessage("و"),
+    "applicationPolicy": MessageLookupByLibrary.simpleMessage("سياسة التطبيق"),
     "arbitrationAndDisputeResolution": MessageLookupByLibrary.simpleMessage(
       "التحكيم وحل النزاعات",
     ),
@@ -70,9 +72,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "doYouWantToCancelYourReservation": MessageLookupByLibrary.simpleMessage(
       "هل تريد الغاء الحجز الخاص بك؟",
     ),
+    "editAccount": MessageLookupByLibrary.simpleMessage("تعديل الحساب"),
     "electronicLegal": MessageLookupByLibrary.simpleMessage(
       "قانونية الكترونية",
     ),
+    "email": MessageLookupByLibrary.simpleMessage("البريد الألكتروني"),
     "everyone": MessageLookupByLibrary.simpleMessage("الكل"),
     "familyConsultations": MessageLookupByLibrary.simpleMessage(
       "استشارات اسرية",
@@ -95,6 +99,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "good": MessageLookupByLibrary.simpleMessage("حسناً"),
     "healthCare": MessageLookupByLibrary.simpleMessage("رعاية صحية"),
     "hello": MessageLookupByLibrary.simpleMessage("اهلا "),
+    "helpAndSupport": MessageLookupByLibrary.simpleMessage("المساعدة والدعم"),
     "invitationCode": MessageLookupByLibrary.simpleMessage(
       "كود الدعوة “اختياري”",
     ),
@@ -109,6 +114,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "legalForWorkAndEmployment": MessageLookupByLibrary.simpleMessage(
       "قانونية للعمل والعمالة",
     ),
+    "logOut": MessageLookupByLibrary.simpleMessage("تسجيل خروج"),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
     "loginViaSocialNetworks": MessageLookupByLibrary.simpleMessage(
       "تسجيل دخول من خلال شبكات التواصل",
@@ -125,10 +131,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "our": MessageLookupByLibrary.simpleMessage("الخاصة بنا"),
     "ourServices": MessageLookupByLibrary.simpleMessage("خدماتنا"),
+    "phoneNumber": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
     "privacyPolicy": MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
     "profile": MessageLookupByLibrary.simpleMessage("حسابي"),
     "research": MessageLookupByLibrary.simpleMessage("بحث"),
     "resendCode": MessageLookupByLibrary.simpleMessage("إعادة الأرسال"),
+    "save": MessageLookupByLibrary.simpleMessage("حفظ"),
     "saveEdit": MessageLookupByLibrary.simpleMessage("حفظ التعديل"),
     "serviceRequest": MessageLookupByLibrary.simpleMessage("طلب الخدمة"),
     "theAuthenticationCode": MessageLookupByLibrary.simpleMessage(

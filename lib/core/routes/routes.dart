@@ -1,3 +1,4 @@
+
 class Routes {
   static const splash = "/";
   static const home = "home";
@@ -11,4 +12,5 @@ class Routes {
   static const editConsultationsScreen = "editConsultationsScreen";
   static const bookTheServiceScreen = "bookTheServiceScreen";
   static const serviceRequest = "serviceRequest";
+  static const editProfileScreen = "editProfileScreen";
 }

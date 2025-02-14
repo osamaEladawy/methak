@@ -13,6 +13,7 @@ class CustomFieldPhoneNumber extends StatelessWidget {
   final String? hintText;
   final String? labelText;
   final TextEditingController? controller;
+  final bool isEditProfile;
   const CustomFieldPhoneNumber({
     super.key,
     required this.valueChanged,
@@ -20,6 +21,7 @@ class CustomFieldPhoneNumber extends StatelessWidget {
     this.hintText,
     this.labelText,
     this.controller,
+    this.isEditProfile = false,
   });
 
   @override
@@ -29,6 +31,7 @@ class CustomFieldPhoneNumber extends StatelessWidget {
         Expanded(
           child: CustomTextFieldAuth(
             isChangeFont: true,
+            isEditProfile: isEditProfile,
             hintText: hintText,
             labelText: labelText,
             keyboardType: TextInputType.phone,
@@ -59,20 +62,29 @@ class CustomFieldPhoneNumber extends StatelessWidget {
                 return Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    SvgPicture.asset(
-                      IconsResources.arrowUp,
-                      height: 24.h,
-                      width: 24.w,
-                    ),
+                    if (!isEditProfile)
+                      SvgPicture.asset(
+                        IconsResources.arrowUp,
+                        height: 24.h,
+                        width: 24.w,
+                      ),
                     SizedBox(width: 3.w),
                     Text(
                       '$countryCode',
-                      style: AppTextStyle.textStyle(
-                          isQuicksand: true,
-                          appFontSize: 16.sp,
-                          appFontHeight: 22.4.sp,
-                          appFontWeight: FontWeight.w400,
-                          color: Color(0xffC1C9D3)),
+                      style: isEditProfile
+                          ? AppTextStyle.textStyle(
+                              isAlexandria: true,
+                              appFontSize: 13.sp,
+                              appFontHeight: 15.65.sp,
+                              appFontWeight: FontWeight.w500,
+                              color: Color(0xff030103),
+                            )
+                          : AppTextStyle.textStyle(
+                              isQuicksand: true,
+                              appFontSize: 16.sp,
+                              appFontHeight: 22.4.sp,
+                              appFontWeight: FontWeight.w400,
+                              color: Color(0xffC1C9D3)),
                     ),
                     SizedBox(width: 5.w),
                     Image.asset(

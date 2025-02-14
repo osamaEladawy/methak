@@ -90,15 +90,6 @@ class LoginScreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                  // Text(
-                  //   "عند إنشاء حساب، فإنك توافق على اتفاقية المستخدم و سياسة الخصوصية الخاصة بنا.",
-                  //   style: AppTextStyle.textStyle(
-                  //     appFontSize: 14.sp,
-                  //     appFontHeight: 21.sp,
-                  //     appFontWeight: FontWeight.w400,
-                  //     color: Color(0xff5C5C5C),
-                  //   ),
-                  // ),
                   SizedBox(height: 20.h),
                   CustomTextFieldAuth(
                     image: IconsResources.profile,

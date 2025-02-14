@@ -10,6 +10,7 @@ class AppTextStyle {
       double? appFontHeight,
       Color? color,
       bool? isNoto,
+      bool? isAlexandria,
       bool? isQuicksand,
       FontWeight appFontWeight = FontWeight.w400,
       TextDecoration? decoration}) {
@@ -22,7 +23,9 @@ class AppTextStyle {
           ? AppStrings.noto
           : isQuicksand == true
               ? AppStrings.quicksand
-              : AppStrings.madani,
+              : isAlexandria == true
+                  ? AppStrings.alexandria
+                  : AppStrings.madani,
       height: appFontHeight != null
           ? appFontHeight / appFontSize
           : appFontSize / appFontSize,
