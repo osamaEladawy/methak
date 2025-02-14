@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:methak/features/reservation/cubit/reservation_cubit.dart';
 import 'package:methak/features/reservation/cubit/reservation_cubit.dart';
 import 'package:methak/features/reservation/widgets/custom_driver.dart';
 import 'package:methak/shared/resources/icons_resources.dart';

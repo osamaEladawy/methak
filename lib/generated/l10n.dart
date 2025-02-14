@@ -804,6 +804,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Religious consultation`
+  String get religiousConsultation {
+    return Intl.message(
+      'Religious consultation',
+      name: 'religiousConsultation',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

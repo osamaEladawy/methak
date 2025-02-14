@@ -154,6 +154,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "phoneNumber": MessageLookupByLibrary.simpleMessage("phone number"),
     "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
     "profile": MessageLookupByLibrary.simpleMessage("profile"),
+    "religiousConsultation": MessageLookupByLibrary.simpleMessage(
+      "Religious consultation",
+    ),
     "research": MessageLookupByLibrary.simpleMessage("research"),
     "resendCode": MessageLookupByLibrary.simpleMessage("resend code"),
     "save": MessageLookupByLibrary.simpleMessage("Save"),

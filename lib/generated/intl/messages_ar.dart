@@ -142,6 +142,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "phoneNumber": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
     "privacyPolicy": MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
     "profile": MessageLookupByLibrary.simpleMessage("حسابي"),
+    "religiousConsultation": MessageLookupByLibrary.simpleMessage(
+      " استشارة دينية",
+    ),
     "research": MessageLookupByLibrary.simpleMessage("بحث"),
     "resendCode": MessageLookupByLibrary.simpleMessage("إعادة الأرسال"),
     "save": MessageLookupByLibrary.simpleMessage("حفظ"),

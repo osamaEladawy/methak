@@ -47,7 +47,10 @@ class SearchScreen extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: 20.h),
-            CustomTextFieldSearch(icon: IconsResources.search,hintText: tr.search,),
+            CustomTextFieldSearch(
+              icon: IconsResources.search,
+              hintText: tr.search,
+            ),
             SizedBox(height: 10.h),
             Expanded(
               child: ListView.separated(
@@ -61,7 +64,7 @@ class SearchScreen extends StatelessWidget {
                         width: 20.h,
                       ),
                       Text(
-                        "استشارة دينية",
+                       tr.religiousConsultation,
                         style: AppTextStyle.textStyle(
                           appFontSize: 12.sp,
                           appFontHeight: 18.sp,

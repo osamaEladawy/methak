@@ -48,17 +48,17 @@ class HomeTapScreen extends StatelessWidget {
                   ...List.generate(HomeTapCubit.instance.bottomsBarPages.length,
                       (index) {
                     return CustomButtonAppBar(
+                      active: HomeTapCubit.instance.currentIndex==index,
                       colorText: HomeTapCubit.instance.currentIndex == index
                           ? ColorResources.primaryColor
                           : Color(0xff484C52),
-                      active: HomeTapCubit.instance.currentIndex == index
-                          ? true
-                          : false,
                       onPressed: () {
                         HomeTapCubit.instance.changePage(index);
                       },
                       image: HomeTapCubit.instance.bottomsBarPages[index].icon!,
                       text: HomeTapCubit.instance.bottomsBarPages[index].title!,
+                      activeImage: HomeTapCubit
+                          .instance.bottomsBarPages[index].activeIcon!,
                     );
                   }),
                 ],

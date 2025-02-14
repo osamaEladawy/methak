@@ -4,7 +4,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:methak/shared/classes/text_style.dart';
 import 'package:methak/shared/resources/color_resources.dart';
 
-import '../../../shared/resources/icons_resources.dart';
 
 class CustomTextFieldSearch extends StatelessWidget {
   const CustomTextFieldSearch({

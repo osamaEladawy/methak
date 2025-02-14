@@ -23,7 +23,7 @@ class HomeTapCubit extends Cubit<HomeTapState> {
   final PageController controller = PageController();
 
   int currentIndex = 0;
-  int activeButtonIndex = 0;
+  //int activeButtonIndex = 0;
 
   List<Widget> pages = [
     HomeScreen(),
@@ -48,10 +48,25 @@ class HomeTapCubit extends Cubit<HomeTapState> {
   }
 
   List<BottomAppBarModel> bottomsBarPages = [
-    BottomAppBarModel(id: 1, title: tr.browse, icon: IconsResources.object),
-    BottomAppBarModel(id: 1, title: tr.myBookings, icon: IconsResources.hogzat),
-    BottomAppBarModel(id: 1, title: tr.research, icon: IconsResources.search),
     BottomAppBarModel(
-        id: 1, title: tr.profile, icon: IconsResources.profileIcon),
+        id: 1,
+        title: tr.browse,
+        icon: IconsResources.object,
+        activeIcon: IconsResources.objectActive),
+    BottomAppBarModel(
+        id: 1,
+        title: tr.myBookings,
+        icon: IconsResources.hogzat,
+        activeIcon: IconsResources.taskActive),
+    BottomAppBarModel(
+        id: 1,
+        title: tr.research,
+        icon: IconsResources.search,
+        activeIcon: IconsResources.searchActive),
+    BottomAppBarModel(
+        id: 1,
+        title: tr.profile,
+        icon: IconsResources.profileIcon,
+        activeIcon: IconsResources.profileActive),
   ];
 }

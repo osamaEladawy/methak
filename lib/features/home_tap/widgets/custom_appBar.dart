@@ -10,6 +10,7 @@ class CustomButtonAppBar extends StatelessWidget {
   final String text;
   final bool? active;
   final String image;
+  final String activeImage;
   final Color? colorText;
 
   const CustomButtonAppBar({
@@ -19,6 +20,7 @@ class CustomButtonAppBar extends StatelessWidget {
     this.active,
     this.image = "",
     this.colorText,
+    required this.activeImage,
   });
 
   @override
@@ -28,9 +30,9 @@ class CustomButtonAppBar extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          if (image.isNotEmpty)
+          if (image.isNotEmpty || activeImage.isNotEmpty)
             SvgPicture.asset(
-              image,
+              active == true ? activeImage : image,
               height: 20.h,
               width: 20.w,
               color: colorText,
