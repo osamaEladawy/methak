@@ -29,4 +29,9 @@ class IconsResources {
   static const video = "$_Icons_Path/video.svg";
   static const video2 = "$_Icons_Path/video2.svg";
   static const messages = "$_Icons_Path/messages.svg";
+  static const clock = "$_Icons_Path/clock.svg";
+  static const objectActive = "$_Icons_Path/Object_active.svg";
+  static const profileActive = "$_Icons_Path/profile_active.svg";
+  static const taskActive = "$_Icons_Path/task_active.svg";
+  static const searchActive = "$_Icons_Path/search_active.svg";
 }

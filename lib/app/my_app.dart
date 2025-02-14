@@ -10,6 +10,7 @@ import 'package:methak/features/home/cubit/home_cubit.dart';
 import 'package:methak/features/home_tap/cubit/home_tap_cubit.dart';
 import 'package:methak/features/home_tap/screen/home_tap_screen.dart';
 import 'package:methak/features/onboard/cubit/onboard_cubit.dart';
+import 'package:methak/features/profile/cubit/profile_cubit.dart';
 import 'package:methak/features/reservation/cubit/reservation_cubit.dart';
 import 'package:methak/features/search/cubit/search_cubit.dart';
 import 'package:methak/features/services/cubit/services_cubit.dart';
@@ -53,7 +54,8 @@ class MainApp extends StatelessWidget {
                   create: (context) => getIt<SearchCubit>()),
               BlocProvider<ReservationCubit>(
                   create: (context) => getIt<ReservationCubit>()),
-              // BlocProvider<RecentlyAddedCubit>(create: (context) => getIt<RecentlyAddedCubit>()),
+              BlocProvider<ProfileCubit>(
+                  create: (context) => getIt<ProfileCubit>()),
               // BlocProvider<MostPopularCubit>(create: (context) => getIt<MostPopularCubit>()),
               // BlocProvider<SportsActivityCubit>(create: (context) => getIt<SportsActivityCubit>()),
               // BlocProvider<WorldLeaguesCubit>(create: (context) => getIt<WorldLeaguesCubit>()),

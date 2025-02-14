@@ -5,6 +5,7 @@ import 'package:methak/features/auth/auth_injections.dart';
 import 'package:methak/features/home/home_ijection.dart';
 import 'package:methak/features/home_tap/home_tap_injection.dart';
 import 'package:methak/features/onboard/onboard_injections.dart';
+import 'package:methak/features/profile/profile_injections.dart';
 import 'package:methak/features/reservation/reservation_injections.dart';
 import 'package:methak/features/search/search_injections.dart';
 import 'package:methak/features/services/services_injections.dart';
@@ -23,18 +24,8 @@ Future<void> appInjections() async {
   homeTapInjection();
   homeInjection();
   searchInjections();
-  reservationInjections(); // foodsInJection();
-  // ordersInjection();
-  // walletInjection();
-  // quickInjection();
-  // profileInjection();
-  // settingsInjection();
-  // langInjection();
-  // chatInjection();
-  // couponInjection();
-  // authInJections();
-  // bankInfoInjections();
-  // reportInjection();
+  reservationInjections();
+  profileInjections();
 
   getIt.registerFactory<LocationCubit>(() => LocationCubit());
 

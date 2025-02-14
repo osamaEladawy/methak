@@ -6,6 +6,8 @@ import 'package:methak/app/my_app.dart';
 import 'package:methak/core/functions/translate.dart';
 import 'package:methak/features/home/screen/home_screen.dart';
 import 'package:methak/features/home_tap/models/bottom_app_bar_model.dart';
+import 'package:methak/features/profile/cubit/profile_cubit.dart';
+import 'package:methak/features/profile/screens/profile_screen.dart';
 import 'package:methak/features/reservation/screens/reservation_screen.dart';
 import 'package:methak/features/search/screens/search_screen.dart';
 import 'package:methak/features/services/screens/services_screen.dart';
@@ -29,7 +31,7 @@ class HomeTapCubit extends Cubit<HomeTapState> {
     HomeScreen(),
     ReservationScreen(),
     SearchScreen(),
-    Center(child: Text("profile")),
+    ProfileScreen(),
   ];
 
   void changePage(int index) {
