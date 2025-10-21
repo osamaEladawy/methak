@@ -1,16 +1,30 @@
 # methak
 
-A new Flutter project.
+An application that provides several legal, sports, health, etc. services, with the ability to communicate with lawyers, doctors, nutritionists, etc., and the ability to book an appointment for consultation. 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## packages
+ state management ( cubit )
+ dependencies (ger_it )
+ network (switch  dio & http),
+ clean architecture
+ firebase 
+ flutter_localizations
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screen
+ ![ui1](screens_shots/ui1.jpg)
+ ![ui2](screens_shots/ui2.jpg)
+ ![ui3](screens_shots/ui3.jpg)
+ ![ui4](screens_shots/ui4.jpg)
+ ![ui5](screens_shots/ui5.jpg)
+ ![ui16](screens_shots/ui16.jpg)
+ ![ui6](screens_shots/ui6.jpg)
+ ![ui7](screens_shots/ui7.jpg)
+ ![ui8](screens_shots/ui8.jpg)
+ ![ui9](screens_shots/ui9.jpg)
+ ![ui10](screens_shots/ui10.jpg)
+ ![ui11](screens_shots/ui11.jpg)
+ ![ui12](screens_shots/ui12.jpg)
+ ![ui13](screens_shots/ui13.jpg)
+ ![ui14](screens_shots/ui14.jpg)
+ ![ui15](screens_shots/ui15.jpg.jpg)

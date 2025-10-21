@@ -51,10 +51,10 @@ ThemeData light = ThemeData(
       )),
   popupMenuTheme: const PopupMenuThemeData(
       color: Colors.white, surfaceTintColor: Colors.white),
-  dialogTheme: const DialogTheme(surfaceTintColor: Colors.white),
+  dialogTheme: const DialogThemeData(surfaceTintColor: Colors.white),
   floatingActionButtonTheme: FloatingActionButtonThemeData(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(500))),
-  bottomAppBarTheme: const BottomAppBarTheme(
+  bottomAppBarTheme: const BottomAppBarThemeData(
     surfaceTintColor: Colors.white,
     height: 60,
     padding: EdgeInsets.symmetric(vertical: 5),

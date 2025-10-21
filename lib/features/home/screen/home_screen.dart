@@ -167,7 +167,7 @@ class HomeScreen extends StatelessWidget {
                     itemCount: HomeCubit.instance.categories.length,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 3,
-                      crossAxisSpacing: 10.w,
+                      //crossAxisSpacing: 10.w,
                       mainAxisSpacing: 12.h,
                     ),
                     itemBuilder: (context, index) {
@@ -189,6 +189,7 @@ class HomeScreen extends StatelessWidget {
                             children: [
                               Container(
                                 width: 110.w,
+                                // padding: EdgeInsets.symmetric(horizontal: 10.w),
                                 decoration: BoxDecoration(
                                   border: Border.all(
                                     width: 1.w,

@@ -19,9 +19,10 @@ Future<void> main(List<String> args) async {
   SetUpLogger.instance.initLogger();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(
-    DevicePreview(
-      enabled: !kReleaseMode,
-      builder: (_) => MainApp(),
-    ),
+    MainApp(),
+    // DevicePreview(
+    //   enabled: !kReleaseMode,
+    //   builder: (_) => MainApp(),
+    // ),
   );
 }
